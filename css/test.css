@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  line-height: 1,5px;
+  line-height: 1.5;
 }
 
 .header {
@@ -60,7 +60,7 @@ a {
 
 h1,h2,h3 {
   text-transform: uppercase;
-  letter-spacing: 0,5px;
+  letter-spacing: 0.5px;
 }
 
 section {
@@ -69,3 +69,13 @@ section {
   margin-bottom: 20px;
 }
 
+.link {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 8px 15px;
+  margin-left: 10px;
+}
+
+ul>li:last-child {
+  margin-right: 0;
+}
